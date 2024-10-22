@@ -7,6 +7,7 @@
 brew install k6
 
 ***Check version installed***
+
 k6 --version
 
 ### Running process!
