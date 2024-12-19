@@ -6,6 +6,10 @@
 
 * brew install k6
 
+**Install K6 Othres Systen Operations**
+
+* This Link to instructions:(https://grafana.com/docs/k6/latest/set-up/install-k6/)
+
 ***Check version installed***
 
 * k6 --version
