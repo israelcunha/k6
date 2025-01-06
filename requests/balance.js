@@ -13,7 +13,7 @@ export const options = {
 
 export default function () {
   const currentRequestIndex = ++requestIndex;
-  
+
   const url = 'https://backdev.fds.bet/api/casino/fds';
   const payload = JSON.stringify({
     user_id: 185268,
@@ -35,7 +35,7 @@ export default function () {
     console.log(`URL: ${url}`);
     console.log(`Status: ${response.status}`);
     console.log(`Resposta: ${response.body}`);
-    console.log(`###############################################################`);
+    console.log(`################################################################`);
   } 
     check(response, {
       'status was successful': (r) => r.status === 200,
