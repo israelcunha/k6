@@ -20,11 +20,20 @@
 
 **Test K6 using the following command to generate report web:**
 
-* k6 run file.js
+* k6 run script_name.js
 
 **Test K6 using the following command to generate report web:**
 
-* K6_WEB_DASHBOARD=true K6_WEB_DASHBOARD_EXPORT=html-report.html k6 run script.js
+* K6_WEB_DASHBOARD=true K6_WEB_DASHBOARD_EXPORT=report.html k6 run requests/apostar.js
+
+* K6_WEB_DASHBOARD=true K6_WEB_DASHBOARD_EXPORT=report.html k6 run requests/win.js
+
+* K6_WEB_DASHBOARD=true K6_WEB_DASHBOARD_EXPORT=report.html k6 run requests/balance.js
+
+* K6_WEB_DASHBOARD=true K6_WEB_DASHBOARD_EXPORT=report.html k6 run requests/login.js
+
+**Executar com Logs:**
+K6_LOG_LEVEL=debug k6 run requests/login.js
 
 ## Resources
-* API for learning purposes: https://test-api.k6.io/
+* API for learning purposes: https://backdev.fds.bet/api
